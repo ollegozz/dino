@@ -11,7 +11,7 @@
 	background-image: url(/img/dino.png);
 	background-size: 50px 50px;
 	position: relative;
-	top: 147px;
+	top: 140px;
 }
 #cactus{
 	width: 20px;
@@ -21,7 +21,7 @@
 	position: relative;
 	top: 110px;
 	left: 575px;
-	animation: cactusMov 3s infinite linear;  
+	animation: cactusMov 2.5s infinite linear;  
 }
 @keyframes cactusMov { /*ключевые кадры анимации*/
 	0% {
@@ -37,18 +37,18 @@
 }
 @keyframes jump { /*ключевые кадры анимации*/
 	0% {
-		top: 150px;
+		top: 140px;
 	}
 	30% {
-		top: 130px;
+		top: 110px;
 	}
 	50% {
-		top: 80px;
+		top: 65px;
 	}
 	80% {
-		top: 130px;
+		top: 110px;
 	}
 	100% {
-		top: 150px;
+		top: 140px;
 	}
 }
